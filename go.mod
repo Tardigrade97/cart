@@ -1,4 +1,4 @@
-module cart
+module github.com/Tardigrade97/cart
 
 go 1.16
 
