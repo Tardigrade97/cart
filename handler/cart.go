@@ -1,10 +1,10 @@
 package handler
 
 import (
-	"cart/domain/model"
-	"cart/domain/service"
-	cart "cart/proto/cart"
 	"context"
+	"github.com/Tardigrade97/cart/domain/model"
+	"github.com/Tardigrade97/cart/domain/service"
+	cart "github.com/Tardigrade97/cart/proto/cart"
 	"github.com/micro/go-plugins/config/source/consul/v2"
 
 	"github.com/Tardigrade97/common"

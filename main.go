@@ -1,9 +1,9 @@
 package main
 
 import (
-	"cart/domain/repository"
-	service2 "cart/domain/service"
-	"cart/handler"
+	"github.com/Tardigrade97/cart/domain/repository"
+	service2 "github.com/Tardigrade97/cart/domain/service"
+	"github.com/Tardigrade97/cart/handler"
 	"github.com/Tardigrade97/common"
 	"github.com/jinzhu/gorm"
 	"github.com/micro/go-micro/v2"
@@ -13,7 +13,7 @@ import (
 	opentracing2 "github.com/micro/go-plugins/wrapper/trace/opentracing/v2"
 	"github.com/opentracing/opentracing-go"
 
-	cart "cart/proto/cart"
+	cart "github.com/Tardigrade97/cart/proto/cart"
 	consul2 "github.com/micro/go-plugins/registry/consul/v2"
 
 	_ "github.com/jinzhu/gorm/dialects/mysql"
